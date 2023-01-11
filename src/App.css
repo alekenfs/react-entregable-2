@@ -1,0 +1,76 @@
+#root {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+body{
+  background-color: #461220;
+}
+img{
+  width:50%;
+  border-radius: 50%;
+  border:#461220 solid 0.5rem;
+  
+}
+label{
+  margin-right: 0.5rem;
+  color: #FED0BB;;
+}
+button{
+  margin-left: 0.50rem;
+  border-radius: 5px;
+  color: #FED0BB;;
+  background-color: #8C2F39;
+  border-radius: 50px;
+
+
+  font-weight: 600;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SearchBar{
+  margin: 1rem;
+}
+input{
+  border-radius: 10px;
+  padding: 0.25rem;
+  width: 300px;
+}
+
+
+.CoctailCard{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.Card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:auto ;
+  margin: 1rem;
+ background-color: #8C2F39;
+  padding: 1rem;
+border-radius: 10px;
+color: #FED0BB;
+box-shadow: 5px 10px 10px #110b0b;
+text-align: justify;
+}						
+
+.Toast{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100% ;
+  font-size: 2.5rem;
+  color: #FED0BB;
+}
+
+i{font-size: 3rem;}
+
