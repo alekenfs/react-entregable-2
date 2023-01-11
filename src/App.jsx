@@ -11,7 +11,7 @@ function App() {
     axios
       .get(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${name}`)
       .then((res) => setDrinks(res.data.drinks));
-  }, [name]);
+  }, [name]);// Cada vez que el name cambie el useEffect ejecutara el .get
   console.log(drinks);
   const lookupdrink = (e) => {
     e.preventDefault();
